@@ -20,3 +20,9 @@ class Pencil(Stationery):
 class Marker(Stationery):
     def draw(self):
         print(f'Just start drawing with Marker! {self.title}')
+
+stat = Stationery()
+stat.draw()
+
+mark = Marker()
+pen = Pencil()
